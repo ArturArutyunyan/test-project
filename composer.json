@@ -1,0 +1,22 @@
+{
+    "name": "dunice/refactor-test",
+    "autoload": {
+        "psr-4": {
+            "Dunice\\RefactorTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artur Harutyunyan",
+            "email": "a.arutyunyan@nv.dunice.net"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "symfony/dotenv": "^5.4"
+    }
+}
+
