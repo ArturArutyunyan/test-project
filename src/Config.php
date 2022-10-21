@@ -23,10 +23,10 @@ class Config
     public function getConfig(): array
     {
         return [
-            'bin_list_api_url' => $this->config['BIN_LIST_API_URL'] ?? 'https://lookup.binlist.net/',
-            'rates_api_url' => $this->config['RATES_API_URL'] ?? 'https://api.exchangerate.host/latest',
-            'eu_rate' => $this->config['EU_RATE'] ?? 0.01,
-            'not_eu_rate' => $this->config['NOT_EU_RATE'] ?? 0.02,
+            'bin_list_api_url' => $this->config['BIN_LIST_API_URL'],
+            'rates_api_url' => $this->config['RATES_API_URL'],
+            'eu_rate' => $this->config['EU_RATE'],
+            'not_eu_rate' => $this->config['NOT_EU_RATE'],
         ];
     }
 }
